@@ -1,0 +1,33 @@
+{
+  "name": "mssayari/php-commerce-sdk",
+  "description": "PHP Commerce SDK.",
+  "keywords": [
+    "commerce",
+    "sdk"
+  ],
+  "type": "sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mojtaba Sayari",
+      "email": "ms.sayyari@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": ">=4,<7",
+    "psr/log": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "mssayyari\\commerce\\": "src/commerce"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "mssayari\\tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
